@@ -34,10 +34,11 @@ body {
 }
 
 .avatar {
-  width: 180px;
-  height: 180px;
+  width: auto;
+  height: auto;
   border-radius: 16px;
-  object-fit: cover;
+  max-height: 185px;
+  object-fit: contain;
   border: 2px solid #eaeaea;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
